@@ -18,3 +18,8 @@ C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\refin
 C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
 C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
 C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Modifier_info_film.g.cs
+C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Modifier_info_film.baml
+C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.sourcelink.json
+C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\gerer_compte_admin.baml
+C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\gerer_compte_admin.g.cs

@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="TP2Ciné – Connexion" Height="450" Width="800" Background="#1E1E1E" WindowStartupLocation="CenterScreen">
+        
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
 
