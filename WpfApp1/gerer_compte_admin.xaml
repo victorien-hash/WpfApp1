@@ -113,24 +113,60 @@
                 </ScrollViewer>
             </TabItem>
 
-            <!-- Onglet 3 -->
+            <!-- enlever un film -->
             <TabItem Header="Enlever un film">
-                <Grid Background="#1E1E1E" Margin="10">
-                    <TextBlock Text="Contenu pour enlever un film" 
-                               Foreground="White" 
-                               VerticalAlignment="Center" 
-                               HorizontalAlignment="Center"/>
-                </Grid>
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Width="420" Margin="0,20,0,20">
+
+                        <TextBlock Text="❌ Enlever un film"
+                       Foreground="White" FontSize="26" FontWeight="Bold"
+                       HorizontalAlignment="Center" Margin="0,0,0,18"/>
+
+                        <Label Content="Titre du film à enlever" Foreground="White" Margin="0,6,0,2"/>
+                        <TextBox x:Name="TitreFilmASupprimerTextBox" Margin="0,0,0,18" Padding="10"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Content="🗑️ Supprimer"
+                        Background="#E50914" Foreground="White"
+                        Padding="10,6" Width="130" Margin="0,0,12,0"
+                        />
+                            <Button Content="↩ Retour"
+                        Background="#3A3A3A" Foreground="White"
+                        Padding="10,6" Width="130"
+                        />
+                        </StackPanel>
+
+                    </StackPanel>
+                </ScrollViewer>
             </TabItem>
 
-            <!-- Onglet 4 -->
-            <TabItem Header="Données financières">
-                <Grid Background="#1E1E1E" Margin="10">
-                    <TextBlock Text="Contenu pour les données financières" 
-                               Foreground="White" 
-                               VerticalAlignment="Center" 
-                               HorizontalAlignment="Center"/>
-                </Grid>
+
+            <!-- Données financières -->
+            <TabItem Header="Obtenir données financières">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Width="420" Margin="0,20,0,20">
+
+                        <TextBlock Text="💰 Obtenir les données financières d'un utilisateur"
+                       Foreground="White" FontSize="24" FontWeight="Bold"
+                       TextWrapping="Wrap" TextAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+                        <Label Content="Sélectionnez un utilisateur" Foreground="White" Margin="0,6,0,2"/>
+                        <ComboBox x:Name="UtilisateurComboBox" Margin="0,0,0,18" Padding="8">
+                            <ComboBoxItem Content="Alice Dupont"/>
+                            <ComboBoxItem Content="Jean Tremblay"/>
+                            <ComboBoxItem Content="Sophie Leblanc"/>
+                            <ComboBoxItem Content="Marc Gagnon"/>
+                        </ComboBox>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Content="📊 Obtenir données financières"
+                        Background="#E50914" Foreground="White"
+                        Padding="10,6" Width="250" Margin="0,0,12,0"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </ScrollViewer>
             </TabItem>
 
         </TabControl>

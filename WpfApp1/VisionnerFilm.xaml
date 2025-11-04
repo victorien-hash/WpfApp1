@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp1.VisionnerFilm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="TP2Ciné – Modifier un compte utilisateur" 
+        Height="500" Width="800"
+        Background="#1E1E1E" 
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="400">
+
+                <!-- Barre de recherche -->
+                <TextBox Height="35" 
+        Background="White" 
+        Foreground="Black" 
+        Text="Rechercher un film..." 
+        HorizontalAlignment="Stretch" 
+        Margin="0,0,0,20"/>
+                <!-- Titre du film -->
+                <TextBlock Text="Inception" Foreground="White" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+
+                <!-- Zone vidéo simulée -->
+                <TextBox Text="Zone vidéo (simulée)"
+        Background="Black"
+        Foreground="White"
+        Height="200"
+        IsReadOnly="True"
+        TextAlignment="Center"
+        VerticalContentAlignment="Center"
+        Margin="0,0,0,15"/>
+
+                <!-- Contrôles vidéo -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,15">
+                    <Button Content="▶ Play" Background="#E50914" Foreground="White" Width="80" Margin="5"/>
+                    <Button Content="⏸ Pause" Background="#E50914" Foreground="White" Width="80" Margin="5"/>
+                    <Button Content="⏹ Stop" Background="#E50914" Foreground="White" Width="80" Margin="5"/>
+                    <Button Content="⛶ Plein écran" Background="#E50914" Foreground="White" Width="120" Margin="5"/>
+                </StackPanel>
+
+                <!-- Informations du film -->
+                <TextBlock Text="Genre : Action / Science-Fiction" Foreground="White" Margin="0,0,0,5"/>
+                <TextBlock Text="Année : 2010" Foreground="White" Margin="0,0,0,5"/>
+                <TextBlock Text="Synopsis : Un voleur capable d’infiltrer les rêves des autres se voit confier une mission impossible qui pourrait changer le cours de sa vie."
+          Foreground="White"
+          TextWrapping="Wrap"
+          Margin="0,0,0,10"/>
+
+                <!-- Bouton Retour -->
+                <Button Content="← Retour" Background="#E50914" Foreground="White" Width="100" Margin="0,10,0,0"/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

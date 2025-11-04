@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Logique d'interaction pour Modifier_info_film.xaml
+    /// Logique d'interaction pour VisionnerFilm.xaml
     /// </summary>
-    public partial class Modifier_info_film : Window
+    public partial class VisionnerFilm : Window
     {
-        public Modifier_info_film()
+        public VisionnerFilm()
         {
             InitializeComponent();
         }

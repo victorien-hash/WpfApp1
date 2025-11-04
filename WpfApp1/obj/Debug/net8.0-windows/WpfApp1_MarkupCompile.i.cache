@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\App.xaml
-3-1780923195
+5-862901194
 
-8-1010046574
+10-665351987
 198-192518753
-gerer_compte_admin.xaml;MainWindow.xaml;Modifier_info_film.xaml;
+GererCompteMembre.xaml;gerer_compte_admin.xaml;MainWindow.xaml;ModifierCompteUtilisateur.xaml;VisionnerFilm.xaml;
 
 True
 
