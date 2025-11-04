@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="TP2Ciné – Modifier un compte utilisateur" 
         Height="500" Width="800"
-        Background="#1E1E1E" 
+        Background="#1E1E1E" Icon="/icones/modifierutilisateur.ico"
         WindowStartupLocation="CenterScreen">
 
     <Grid>

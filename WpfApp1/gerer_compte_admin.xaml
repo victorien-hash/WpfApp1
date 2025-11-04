@@ -4,7 +4,7 @@
         Title="TP2Ciné – Gestion compte administrateur"
         Height="450" Width="700"
         WindowStartupLocation="CenterScreen"
-        Background="#1E1E1E">
+        Background="#1E1E1E" Icon="/icones/gerercomptes.ico">
 
     <Grid>
         <Grid.RowDefinitions>

@@ -8,6 +8,9 @@
     <Compile Update="gerer_compte_admin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Inscription.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ModifierCompteUtilisateur.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

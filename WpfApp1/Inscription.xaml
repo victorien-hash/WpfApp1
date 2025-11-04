@@ -1,0 +1,84 @@
+﻿<Window x:Class="WpfApp1.Inscription"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="TP2Ciné – Modifier un compte utilisateur" 
+        Height="500" Width="800"
+        Background="#1E1E1E" Icon="/icones/inscription.ico"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+
+                <!-- Titre principal -->
+                <TextBlock Text="🎬 TP2Ciné" 
+               Foreground="White" 
+               FontSize="32" 
+               FontWeight="Bold" 
+               HorizontalAlignment="Center" 
+               Margin="0,0,0,10"/>
+
+                <!-- Sous-titre -->
+                <TextBlock Text="Inscription" 
+               Foreground="White"
+               FontSize="20"
+               FontWeight="SemiBold"
+               HorizontalAlignment="Center"
+               Margin="0,0,0,25"/>
+
+                <!-- Champ : Nom -->
+                <Label Content="Nom" Foreground="White" Margin="0,5"/>
+                <TextBox Height="35" Padding="10" Margin="0,0,0,10" 
+             Background="White" Foreground="Black" BorderBrush="Gray"/>
+
+                <!-- Champ : Prénom -->
+                <Label Content="Prénom" Foreground="White" Margin="0,5"/>
+                <TextBox Height="35" Padding="10" Margin="0,0,0,10" 
+             Background="White" Foreground="Black" BorderBrush="Gray"/>
+
+                <!-- Champ : Nom d'utilisateur -->
+                <Label Content="Nom d'utilisateur" Foreground="White" Margin="0,5"/>
+                <TextBox Height="35" Padding="10" Margin="0,0,0,10" 
+             Background="White" Foreground="Black" BorderBrush="Gray"/>
+
+                <!-- Champ : Courriel -->
+                <Label Content="Courriel" Foreground="White" Margin="0,5"/>
+                <TextBox Height="35" Padding="10" Margin="0,0,0,10" 
+             Background="White" Foreground="Black" BorderBrush="Gray"/>
+
+                <!-- Champ : Mot de passe -->
+                <Label Content="Mot de passe" Foreground="White" Margin="0,5"/>
+                <PasswordBox Height="35" Padding="10" Margin="0,0,0,10"
+                 Background="White" Foreground="Black" BorderBrush="Gray"/>
+
+                <!-- Champ : Confirmation -->
+                <Label Content="Confirmer le mot de passe" Foreground="White" Margin="0,5"/>
+                <PasswordBox Height="35" Padding="10" Margin="0,0,0,20"
+                 Background="White" Foreground="Black" BorderBrush="Gray"/>
+
+                <!-- Bouton d'inscription -->
+                <Button Content="S'inscrire" 
+            Background="#E50914" Foreground="White" 
+            FontWeight="Bold"
+            Height="40"
+            Margin="0,10,0,15"
+            BorderThickness="0"
+            Cursor="Hand"/>
+
+                <!-- Lien vers la connexion -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                    <TextBlock Text="Déjà un compte ? " Foreground="White"/>
+                    <TextBlock Text="Se connecter" 
+                   Foreground="#E50914" 
+                   TextDecorations="Underline" 
+                   Cursor="Hand"/>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

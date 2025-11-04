@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="TP2Ciné – Modifier un compte utilisateur" 
+        Title="TP2Ciné – Gestion membre"
         Height="500" Width="800"
-        Background="#1E1E1E" 
+        Background="#1E1E1E" Icon="/icones/gerercomptes.ico" 
         WindowStartupLocation="CenterScreen">
 
     <Grid>
