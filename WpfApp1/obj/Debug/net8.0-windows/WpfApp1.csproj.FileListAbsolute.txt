@@ -29,3 +29,5 @@ C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Visio
 C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\VisionnerFilm.baml
 C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Inscription.g.cs
 C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Inscription.baml
+C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Accueil.g.cs
+C:\Users\victorien\Documents\MASM\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Accueil.baml

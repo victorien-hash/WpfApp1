@@ -9,15 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="icones\acceuil.ico" />
     <None Remove="icones\connection.ico" />
     <None Remove="icones\gerercomptes.ico" />
     <None Remove="icones\inscription.ico" />
-    <None Remove="icones\modifier.ico" />
     <None Remove="icones\modifierutilisateur.ico" />
     <None Remove="icones\visionnerfilm.ico" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="icones\acceuil.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="icones\connection.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
@@ -25,9 +28,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="icones\inscription.ico">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="icones\modifier.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="icones\modifierutilisateur.ico">
