@@ -13,16 +13,30 @@
             <RowDefinition Height="*"/>
             <!-- Contenu -->
         </Grid.RowDefinitions>
-
+        
+        
         <!-- En-tête -->
         <Border Grid.Row="0" Background="#E50914">
             <Grid Margin="20,0">
                 <TextBlock Text="🎬 TP2Ciné – Administration"
                            Foreground="White" FontSize="20" FontWeight="Bold"
                            VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                <TextBlock Text="Gestion du compte administrateur"
-                           Foreground="White" FontSize="14"
-                           VerticalAlignment="Center" HorizontalAlignment="Right"/>
+                <StackPanel Orientation="Horizontal" 
+                            HorizontalAlignment="Right" 
+                            VerticalAlignment="Center">
+
+                    <TextBlock Text="Gestion du compte administrateur"
+                               Foreground="White" FontSize="14"
+                   VerticalAlignment="Center" 
+                               Margin="0,0,20,0"/>
+                    <Button x:Name="BtnDeconnexion"
+                            Content="Déconnexion"
+                            Background="#3A3A3A" 
+                            Foreground="White"
+                            FontWeight="Bold"
+                            Padding="10,5"
+                            Cursor="Hand"/>
+                </StackPanel>
             </Grid>
         </Border>
 

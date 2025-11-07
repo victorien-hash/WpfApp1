@@ -22,10 +22,23 @@
             <TextBlock Text="🎬 TP2Ciné – Gestion membre"
                        Foreground="White" FontSize="20" FontWeight="Bold"
                        VerticalAlignment="Center" HorizontalAlignment="Left"/>
-            <TextBlock Text="Compte membre"
-                       Foreground="White" FontSize="14"
-                       VerticalAlignment="Center" HorizontalAlignment="Right"/>
-        </Grid>
+                <StackPanel Orientation="Horizontal" 
+                            HorizontalAlignment="Right" 
+                            VerticalAlignment="Center">
+
+                    <TextBlock Text="Compte membre"
+                               Foreground="White" FontSize="14"
+                   VerticalAlignment="Center" 
+                               Margin="0,0,20,0"/>
+                    <Button x:Name="BtnDeconnexion"
+                            Content="Déconnexion"
+                            Background="#3A3A3A" 
+                            Foreground="White"
+                            FontWeight="Bold"
+                            Padding="10,5"
+                            Cursor="Hand"/>
+                </StackPanel>
+            </Grid>
     </Border>
 
     <!-- Contenu principal -->
