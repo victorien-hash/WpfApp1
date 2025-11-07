@@ -14,9 +14,6 @@
     <Compile Update="Inscription.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ModifierCompteUtilisateur.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="VisionnerFilm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

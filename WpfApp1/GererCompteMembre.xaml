@@ -30,8 +30,47 @@
 
     <!-- Contenu principal -->
     <TabControl Grid.Row="1" Margin="20" Background="#2E2E2E" Foreground="White">
+        
+                <!--modifier compte utilisateur-->
+            <TabItem Header="Modifier un compte utilisateur">
+                <Grid Background="#1E1E1E">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel Width="460" Margin="0,20,0,20">
 
-        <!-- Onglet 1 : S'abonner -->
+                            <!-- Titre -->
+                            <TextBlock Text="👤 Modifier un compte utilisateur" 
+                           Foreground="White" FontSize="26" FontWeight="Bold" 
+                           TextAlignment="Center" 
+                           Margin="0,0,0,25"/>
+
+                            <!-- Nom complet -->
+                            <Label Content="Nom complet" Foreground="White" Margin="0,5"/>
+                            <TextBox x:Name="NomCompletTextBox" Margin="0,0,0,10" Padding="10"/>
+
+                            <!-- Courriel -->
+                            <Label Content="Adresse courriel" Foreground="White" Margin="0,5"/>
+                            <TextBox x:Name="EmailTextBox" Margin="0,0,0,10" Padding="10"/>
+
+                            <!-- Mot de passe -->
+                            <Label Content="Mot de passe" Foreground="White" Margin="0,5"/>
+                            <PasswordBox x:Name="MotDePasseBox" Margin="0,0,0,15" Padding="10"/>
+
+                            <!-- Boutons -->
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Content="💾 Enregistrer"
+                            Background="#E50914" Foreground="White"
+                            Padding="10,6" Width="130" Margin="0,0,12,0"/>
+                                <Button Content="↩ Annuler"
+                            Background="#3A3A3A" Foreground="White"
+                            Padding="10,6" Width="130"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+
+            <!-- Onglet 1 : S'abonner -->
         <TabItem Header="S'abonner">
             <ScrollViewer VerticalScrollBarVisibility="Auto">
                 <Grid Background="#1E1E1E" Margin="10">
