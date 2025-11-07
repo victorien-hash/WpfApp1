@@ -21,13 +21,13 @@
                            Margin="0,0,0,25"/>
 
                 <!-- Sélection utilisateur -->
-                <Label Content="Sélectionnez un utilisateur" Foreground="White" Margin="0,5"/>
+                <!--<Label Content="Sélectionnez un utilisateur" Foreground="White" Margin="0,5"/>
                 <ComboBox x:Name="UtilisateurComboBox" Margin="0,0,0,15" Padding="8">
                     <ComboBoxItem Content="Alice Dupont"/>
                     <ComboBoxItem Content="Jean Tremblay"/>
                     <ComboBoxItem Content="Sophie Leblanc"/>
                     <ComboBoxItem Content="Marc Gagnon"/>
-                </ComboBox>
+                </ComboBox>-->
 
                 <!-- Nom complet -->
                 <Label Content="Nom complet" Foreground="White" Margin="0,5"/>
@@ -42,12 +42,12 @@
                 <PasswordBox x:Name="MotDePasseBox" Margin="0,0,0,15" Padding="10"/>
 
                 <!-- Abonnement -->
-                <Label Content="Type d'abonnement" Foreground="White" Margin="0,5"/>
+                <!--<Label Content="Type d'abonnement" Foreground="White" Margin="0,5"/>
                 <ComboBox x:Name="AbonnementComboBox" Margin="0,0,0,25" Padding="8">
                     <ComboBoxItem Content="Aucun"/>
                     <ComboBoxItem Content="Mensuel - Standard"/>
                     <ComboBoxItem Content="Mensuel - Premium"/>
-                </ComboBox>
+                </ComboBox>-->
 
                 <!-- Boutons -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
