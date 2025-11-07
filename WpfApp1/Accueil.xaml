@@ -12,166 +12,241 @@
 
     <Grid Background="#1E1E1E">
 
-        <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <StackPanel Margin="20">
+        <StackPanel Orientation="Horizontal" 
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Top" 
+                    Margin="0,10,20,0"
+                    Panel.ZIndex="1">
+            <Button x:Name="BtnSeConnecter"
+                    Content="Se connecter"
+                    Background="#3A3A3A" 
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Padding="10,5"
+                    Margin="0,0,10,0"
+                    Cursor="Hand"/>
+            <Button x:Name="BtnSInscrire"
+                    Content="S'inscrire"
+                    Background="#E50914" 
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Padding="10,5"
+                    Cursor="Hand"/>
+        </StackPanel>
 
-                <!-- Barre de recherche -->
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="20,50,20,20">
+
                 <StackPanel Orientation="Horizontal" Margin="0,10,0,30" HorizontalAlignment="Center">
                     <TextBox x:Name="txtRecherche"
                      Width="400"
-                     Height="35"
+   
+                  Height="35"
                      Background="White"
                      Foreground="Black"
                      FontSize="14"
-                     Padding="10,0"
+                   
+  Padding="10,0"
                      Text="Rechercher un film..."
                      Margin="0,0,10,0"/>
                     <Button Content="🔍 Rechercher"
                     Background="#E50914"
-                    Foreground="White"
+            
+        Foreground="White"
                     FontWeight="Bold"
                     Padding="15,0"/>
                 </StackPanel>
 
-                <!-- Section “Populaires” -->
-                <TextBlock Text="🎬 Films populaires"
+                <TextBlock 
+Text="🎬 Films populaires"
                    Foreground="White"
                    FontSize="20"
                    FontWeight="Bold"
                    Margin="0,0,0,10"/>
 
                 <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+
                     <StackPanel Orientation="Horizontal">
-                        <!-- Exemple de film -->
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
+
                             <StackPanel>
-                                <Image Source="https://via.placeholder.com/150x200?text=Inception" 
+                                <Image Source="/images/fastfurious.jpg" 
                                Height="180" Stretch="UniformToFill" />
-                                <TextBlock Text="Inception" 
+
+                                <TextBlock Text="Fast and Furious" 
                                    Foreground="White" 
                                    FontWeight="Bold" 
-                                   HorizontalAlignment="Center"
+                         
+          HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
                             </StackPanel>
                         </Border>
 
+
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="https://via.placeholder.com/150x200?text=Avatar" 
-                               Height="180" Stretch="UniformToFill" />
+                                <Image Source="/images/avatar.jpg" 
+            
+                   Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Avatar" 
                                    Foreground="White" 
-                                   FontWeight="Bold" 
+         
+                          FontWeight="Bold" 
                                    HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
+
                             </StackPanel>
                         </Border>
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
+
                             <StackPanel>
-                                <Image Source="https://via.placeholder.com/150x200?text=Joker" 
+                                <Image Source="/images/joker 1.jpg" 
                                Height="180" Stretch="UniformToFill" />
+
                                 <TextBlock Text="Joker" 
                                    Foreground="White" 
                                    FontWeight="Bold" 
-                                   HorizontalAlignment="Center"
+                     
+              HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
                             </StackPanel>
+
                         </Border>
+
+                        <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
+                            <StackPanel>
+                                <Image Source="/images/avatar.jpg" 
+            
+Height="180" Stretch="UniformToFill" />
+                                <TextBlock Text="Avatar" 
+                Foreground="White" 
+         
+       FontWeight="Bold" 
+                HorizontalAlignment="Center"
+                Margin="0,5,0,0"/>
+
+                            </StackPanel>
+                        </Border>
+                        
+                        
                     </StackPanel>
                 </ScrollViewer>
 
-                <!-- Section “Nouveautés” -->
                 <TextBlock Text="🆕 Nouveautés"
                    Foreground="White"
-                   FontSize="20"
+       
+            FontSize="20"
                    FontWeight="Bold"
                    Margin="0,30,0,10"/>
 
                 <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
                     <StackPanel Orientation="Horizontal">
+
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
                                 <Image Source="https://via.placeholder.com/150x200?text=Dune+2" 
-                               Height="180" Stretch="UniformToFill" />
+                    
+           Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Dune: Part Two" 
                                    Foreground="White" 
-                                   FontWeight="Bold" 
+               
+                    FontWeight="Bold" 
                                    HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
+
                             </StackPanel>
                         </Border>
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
+
                             <StackPanel>
                                 <Image Source="https://via.placeholder.com/150x200?text=Oppenheimer" 
                                Height="180" Stretch="UniformToFill" />
-                                <TextBlock Text="Oppenheimer" 
+                                <TextBlock 
+Text="Oppenheimer" 
                                    Foreground="White" 
                                    FontWeight="Bold" 
-                                   HorizontalAlignment="Center"
+                           
+        HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
                             </StackPanel>
                         </Border>
+
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
                                 <Image Source="https://via.placeholder.com/150x200?text=Barbie" 
-                               Height="180" Stretch="UniformToFill" />
+              
+                 Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Barbie" 
                                    Foreground="White" 
-                                   FontWeight="Bold" 
+           
+                        FontWeight="Bold" 
                                    HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
+
                             </StackPanel>
                         </Border>
                     </StackPanel>
                 </ScrollViewer>
 
-                <!-- Section “Recommandés” -->
                 <TextBlock Text="⭐ Recommandés pour vous"
                    Foreground="White"
                    FontSize="20"
                    FontWeight="Bold"
                    Margin="0,30,0,10"/>
 
+
                 <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
                     <StackPanel Orientation="Horizontal">
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
+
                                 <Image Source="https://via.placeholder.com/150x200?text=Interstellar" 
                                Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Interstellar" 
-                                   Foreground="White" 
+     
+                              Foreground="White" 
                                    FontWeight="Bold" 
-                                   HorizontalAlignment="Center"
+                                 
+  HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
                             </StackPanel>
                         </Border>
+
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
                                 <Image Source="https://via.placeholder.com/150x200?text=The+Batman" 
-                               Height="180" Stretch="UniformToFill" />
+                    
+           Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="The Batman" 
                                    Foreground="White" 
-                                   FontWeight="Bold" 
+                
+                   FontWeight="Bold" 
                                    HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
+
                             </StackPanel>
                         </Border>
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
+
                                 <Image Source="https://via.placeholder.com/150x200?text=Tenet" 
                                Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Tenet" 
+
                                    Foreground="White" 
                                    FontWeight="Bold" 
-                                   HorizontalAlignment="Center"
+                            
+       HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
                             </StackPanel>
                         </Border>
+
                     </StackPanel>
                 </ScrollViewer>
 
