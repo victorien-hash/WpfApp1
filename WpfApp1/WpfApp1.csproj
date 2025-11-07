@@ -15,6 +15,9 @@
     <None Remove="icones\inscription.ico" />
     <None Remove="icones\modifierutilisateur.ico" />
     <None Remove="icones\visionnerfilm.ico" />
+    <None Remove="images\avatar.jpg" />
+    <None Remove="images\joker 1.jpg" />
+    <None Remove="images\joker 2.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,6 +39,10 @@
     <Resource Include="icones\visionnerfilm.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="images\avatar.jpg" />
+    <Resource Include="images\fastfurious.jpg" />
+    <Resource Include="images\joker 1.jpg" />
+    <Resource Include="images\joker 2.jpg" />
   </ItemGroup>
 
 </Project>
