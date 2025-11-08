@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="TP2Ciné – Modifier un compte utilisateur" 
+        Title="TP2Ciné – Accueil" 
         Height="500" Width="800"
         Background="#1E1E1E" Icon="/icones/acceuil.ico"
         WindowStartupLocation="CenterScreen">
@@ -117,10 +117,10 @@ Text="🎬 Films populaires"
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="/images/avatar.jpg" 
+                                <Image Source="/images/game-of-thrones.jpg" 
             
 Height="180" Stretch="UniformToFill" />
-                                <TextBlock Text="Avatar" 
+                                <TextBlock Text="Game of Thrones" 
                 Foreground="White" 
          
        FontWeight="Bold" 
@@ -146,7 +146,7 @@ Height="180" Stretch="UniformToFill" />
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="https://via.placeholder.com/150x200?text=Dune+2" 
+                                <Image Source="/images/blacklist.jpg" 
                     
            Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Dune: Part Two" 
@@ -162,7 +162,7 @@ Height="180" Stretch="UniformToFill" />
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
 
                             <StackPanel>
-                                <Image Source="https://via.placeholder.com/150x200?text=Oppenheimer" 
+                                <Image Source="/images/brakingBad.jpg" 
                                Height="180" Stretch="UniformToFill" />
                                 <TextBlock 
 Text="Oppenheimer" 
@@ -177,7 +177,7 @@ Text="Oppenheimer"
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="https://via.placeholder.com/150x200?text=Barbie" 
+                                <Image Source="/images/Snowfall.jpg" 
               
                  Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Barbie" 
@@ -186,6 +186,21 @@ Text="Oppenheimer"
                         FontWeight="Bold" 
                                    HorizontalAlignment="Center"
                                    Margin="0,5,0,0"/>
+
+                            </StackPanel>
+                        </Border>
+
+                        <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
+                            <StackPanel>
+                                <Image Source="/images/prisonBreak.jpg" 
+              
+Height="180" Stretch="UniformToFill" />
+                                <TextBlock Text="Barbie" 
+                  Foreground="White" 
+           
+       FontWeight="Bold" 
+                  HorizontalAlignment="Center"
+                  Margin="0,5,0,0"/>
 
                             </StackPanel>
                         </Border>

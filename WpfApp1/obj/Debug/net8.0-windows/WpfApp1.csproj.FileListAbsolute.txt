@@ -42,7 +42,6 @@ C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\GererCompte
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\gerer_compte_admin.g.cs
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Inscription.g.cs
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ModifierCompteUtilisateur.g.cs
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\VisionnerFilm.g.cs
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
@@ -51,7 +50,6 @@ C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Accueil.bam
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\GererCompteMembre.baml
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Inscription.baml
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ModifierCompteUtilisateur.baml
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\VisionnerFilm.baml
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.g.resources
 C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
