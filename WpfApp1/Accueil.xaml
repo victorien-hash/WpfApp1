@@ -117,10 +117,10 @@ Text="🎬 Films populaires"
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="/images/game-of-thrones.jpg" 
+                                <Image Source="/images/joker 2.jpg" 
             
 Height="180" Stretch="UniformToFill" />
-                                <TextBlock Text="Game of Thrones" 
+                                <TextBlock Text="Breaking Bad" 
                 Foreground="White" 
          
        FontWeight="Bold" 
@@ -146,7 +146,7 @@ Height="180" Stretch="UniformToFill" />
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="/images/blacklist.jpg" 
+                                <Image Source="/images/joker 2.jpg" 
                     
            Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Dune: Part Two" 
@@ -162,7 +162,7 @@ Height="180" Stretch="UniformToFill" />
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
 
                             <StackPanel>
-                                <Image Source="/images/brakingBad.jpg" 
+                                <Image Source="/images/fastfurious.jpg" 
                                Height="180" Stretch="UniformToFill" />
                                 <TextBlock 
 Text="Oppenheimer" 
@@ -177,7 +177,7 @@ Text="Oppenheimer"
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="/images/Snowfall.jpg" 
+                                <Image Source="/images/avatar.jpg" 
               
                  Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Barbie" 
@@ -192,7 +192,7 @@ Text="Oppenheimer"
 
                         <Border Background="#2E2E2E" CornerRadius="10" Margin="5" Width="150" Height="220">
                             <StackPanel>
-                                <Image Source="/images/prisonBreak.jpg" 
+                                <Image Source="/images/joker 1.jpg" 
               
 Height="180" Stretch="UniformToFill" />
                                 <TextBlock Text="Barbie" 
