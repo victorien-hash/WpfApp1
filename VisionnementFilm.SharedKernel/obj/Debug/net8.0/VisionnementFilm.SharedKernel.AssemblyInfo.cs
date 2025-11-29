@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VisionnementFilm.SharedKernel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeb9e4de754279f21c4b625f802d1935d3fcf788")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92437b038d8a1408aeed0fd8a80320db704bba2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VisionnementFilm.SharedKernel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VisionnementFilm.SharedKernel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

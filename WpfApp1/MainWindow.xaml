@@ -10,31 +10,27 @@
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
 
-            <!-- Titre -->
             <TextBlock Text="🎬 TP2Ciné" 
            Foreground="White" FontSize="32" FontWeight="Bold" 
            HorizontalAlignment="Center" Margin="0,0,0,20"/>
 
-            <!-- Champ utilisateur -->
             <Label Content="Nom d'utilisateur" Foreground="White" Margin="0,5"/>
-            <TextBox Margin="0,0,0,10" Padding="10"/>
+            <TextBox x:Name="txtUsername" Margin="0,0,0,10" Padding="10"/>
 
-            <!-- Champ mot de passe -->
             <Label Content="Mot de passe" Foreground="White" Margin="0,5"/>
-            <PasswordBox Margin="0,0,0,15" Padding="10"/>
+            <PasswordBox x:Name="txtPassword" Margin="0,0,0,15" Padding="10"/>
 
-            <!-- Bouton de connexion -->
-            <Button Content="Se connecter" 
-        Background="#E50914" Foreground="White" 
-        Margin="0,10" Padding="10"/>
+            <Button Content="Se connecter" Click="BtnConnexion_Click"
+                    Background="#E50914" Foreground="White" 
+                    Margin="0,10" Padding="10" Cursor="Hand"/>
 
-            <!-- Lien d'inscription -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
                 <TextBlock Text="Pas de compte ? " Foreground="White"/>
                 <TextBlock Text="Créer un compte" 
-               Foreground="#E50914" 
-               TextDecorations="Underline" 
-               Cursor="Hand"/>
+                           MouseLeftButtonDown="BtnCreerCompte_Click"
+                           Foreground="#E50914" 
+                           TextDecorations="Underline" 
+                           Cursor="Hand"/>
             </StackPanel>
         </StackPanel>
     </Grid>

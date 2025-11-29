@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace VisionnementFilm.SharedKernel
 {
-    internal class BaseEntity
+    public abstract class BaseEntity
     {
+        public int Id { get; set; }
     }
 }

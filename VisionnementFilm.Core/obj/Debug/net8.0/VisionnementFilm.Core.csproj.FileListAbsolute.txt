@@ -1,0 +1,16 @@
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.csproj.AssemblyReference.cache
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.AssemblyInfoInputs.cache
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.AssemblyInfo.cs
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.csproj.CoreCompileInputs.cache
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.sourcelink.json
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\bin\Debug\net8.0\VisionnementFilm.Core.deps.json
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\bin\Debug\net8.0\VisionnementFilm.Core.dll
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\bin\Debug\net8.0\VisionnementFilm.Core.pdb
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\bin\Debug\net8.0\VisionnementFilm.SharedKernel.dll
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\bin\Debug\net8.0\VisionnementFilm.SharedKernel.pdb
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\Visionne.9E9E6C7E.Up2Date
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.dll
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\refint\VisionnementFilm.Core.dll
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\VisionnementFilm.Core.pdb
+C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.Core\obj\Debug\net8.0\ref\VisionnementFilm.Core.dll

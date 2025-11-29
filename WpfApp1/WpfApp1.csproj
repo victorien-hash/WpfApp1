@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +48,12 @@
     <Resource Include="images\fastfurious.jpg" />
     <Resource Include="images\joker 1.jpg" />
     <Resource Include="images\joker 2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VisionnementFilm.Core\VisionnementFilm.Core.csproj" />
+    <ProjectReference Include="..\VisionnementFilm.Infrastructure\VisionnementFilm.Infrastructure.csproj" />
+    <ProjectReference Include="..\VisionnementFilm.SharedKernel\VisionnementFilm.SharedKernel.csproj" />
   </ItemGroup>
 
   <ItemGroup>
