@@ -16,9 +16,9 @@ using VisionnementFilm.Core.Services;
 
 namespace WpfApp1
 {
-    /// <summary>
+    
     /// Logique d'interaction pour Inscription.xaml
-    /// </summary>
+    
     public partial class Inscription : Window
     {
         private readonly AuthService _authService;
@@ -54,7 +54,7 @@ namespace WpfApp1
                 Prenom = txtPrenom.Text,
                 NomUtilisateur = txtUsername.Text,
                 Courriel = txtEmail.Text,
-                MotDePasseHash = txtPassword.Password, // À hasher en prod !
+                MotDePasseHash = txtPassword.Password, 
                 EstAdmin = chkEstAdmin.IsChecked == true
             };
 

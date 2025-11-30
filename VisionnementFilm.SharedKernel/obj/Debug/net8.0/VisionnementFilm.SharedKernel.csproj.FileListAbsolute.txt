@@ -11,3 +11,16 @@ C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8
 C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\refint\VisionnementFilm.SharedKernel.dll
 C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.pdb
 C:\Users\loren\source\repos\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\ref\VisionnementFilm.SharedKernel.dll
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\bin\Debug\net8.0\VisionnementFilm.SharedKernel.deps.json
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\bin\Debug\net8.0\VisionnementFilm.SharedKernel.dll
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\bin\Debug\net8.0\VisionnementFilm.SharedKernel.pdb
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.AssemblyInfo.cs
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.sourcelink.json
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.dll
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\refint\VisionnementFilm.SharedKernel.dll
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\VisionnementFilm.SharedKernel.pdb
+C:\Users\victorien\Documents\WpfApp1\VisionnementFilm.SharedKernel\obj\Debug\net8.0\ref\VisionnementFilm.SharedKernel.dll

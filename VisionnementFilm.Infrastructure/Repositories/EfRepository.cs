@@ -55,7 +55,6 @@ namespace VisionnementFilm.Infrastructure.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
-        // Les méthodes CountAsync, ListAsync(spec) etc. peuvent être ajoutées ici si définies dans l'interface
         //public Task<int> CountAsync(ISpecification<T> spec) => throw new System.NotImplementedException();
         //public Task<IEnumerable<T>> ListAsync(ISpecification<T> spec) => throw new System.NotImplementedException();
     }

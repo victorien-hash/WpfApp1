@@ -70,11 +70,10 @@ namespace VisionnementFilm.Core.Services
             await _userRepo.UpdateAsync(utilisateurModifie);
         }
 
-        // Méthode pour traiter un remboursement (Simulation)
+        // Méthode pour traiter un remboursement
         public async Task<bool> DemanderRemboursementAsync(int userId, decimal montant, string motif)
         {
-            // Dans une vraie app, cela créerait un ticket pour l'admin.
-            // Ici, pour le TP, on simule un remboursement automatique.
+            
 
             var user = await _userRepo.GetByIdAsync(userId);
             if (user != null)

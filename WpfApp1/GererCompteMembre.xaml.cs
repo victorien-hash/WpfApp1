@@ -16,9 +16,9 @@ using VisionnementFilm.Core.Services;
 
 namespace WpfApp1
 {
-    /// <summary>
+    
     /// Logique d'interaction pour GererCompteMembre.xaml
-    /// </summary>
+    
     public partial class GererCompteMembre : Window
     {
         private readonly Utilisateur _currentUser;
@@ -66,7 +66,7 @@ namespace WpfApp1
 
             if (!string.IsNullOrWhiteSpace(txtEditPassword.Password))
             {
-                _currentUser.MotDePasseHash = txtEditPassword.Password; // À hasher en vrai
+                _currentUser.MotDePasseHash = txtEditPassword.Password; 
             }
 
             await _memberService.MettreAJourInfoUtilisateurAsync(_currentUser);

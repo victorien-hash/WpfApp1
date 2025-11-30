@@ -16,9 +16,9 @@ using VisionnementFilm.Core.Services;
 
 namespace WpfApp1
 {
-    /// <summary>
+    
     /// Logique d'interaction pour gerer_compte_admin.xaml
-    /// </summary>
+   
     public partial class gerer_compte_admin : Window
     {
         private readonly AuthService _authService;
@@ -113,7 +113,7 @@ namespace WpfApp1
                 return;
             }
 
-            // Note: Pour éviter l'erreur de tracking, assurez-vous d'utiliser UpdateAsync corrigé dans EfRepository
+            
             var film = new Film
             {
                 Id = _filmIdEnModification,
@@ -121,8 +121,7 @@ namespace WpfApp1
                 Genre = ModifGenreComboBox.Text,
                 Description = ModifDescriptionTextBox.Text,
                 Annee = 2024,
-                CheminImage = "/images/fastfurious.jpg", // Garder l'image ou récupérer l'ancienne
-                //CheminVideo = "http://...",
+                CheminImage = "/images/fastfurious.jpg", // Garder l'image
                 PrixAchat = 10.0m
             };
 

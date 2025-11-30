@@ -15,9 +15,9 @@ using VisionnementFilm.Core.Entites;
 
 namespace WpfApp1
 {
-    /// <summary>
+    
     /// Logique d'interaction pour VisionnerFilm.xaml
-    /// </summary>
+    
     public partial class VisionnerFilm : Window
     {
         private readonly Window _parentWindow;
@@ -50,7 +50,7 @@ namespace WpfApp1
         protected override void OnClosed(System.EventArgs e)
         {
             base.OnClosed(e);
-            // Sécurité : si on ferme la fenêtre avec la croix, on s'assure que l'accueil revient
+            //si on ferme la fenêtre avec la croix, on s'assure que l'accueil revient
             _parentWindow.Show();
         }
     }

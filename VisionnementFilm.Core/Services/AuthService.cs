@@ -24,7 +24,7 @@ namespace VisionnementFilm.Core.Services
         {
             var utilisateur = await _repo.ObtenirParNomUtilisateurAsync(nomUtilisateur);
 
-            // NOTE : En prod, utiliser un vérificateur de hash ici !
+            
             if (utilisateur != null && utilisateur.MotDePasseHash == motDePasse)
             {
                 return utilisateur;

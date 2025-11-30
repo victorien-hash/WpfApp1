@@ -17,9 +17,8 @@ using VisionnementFilm.Core.Services;
 
 namespace WpfApp1
 {
-    /// <summary>
     /// Logique d'interaction pour Accueil.xaml
-    /// </summary>
+    
     public partial class Accueil : Window
     {
         private readonly AuthService _authService;
@@ -35,6 +34,20 @@ namespace WpfApp1
             _filmService = filmService;
             _memberService = membreService;
             _currentUser = currentUser;
+
+
+            // Pour permettre l'accès à l'admin seulement si l'utilisateur est admin
+            //if (_currentUser.EstAdmin == true)
+            //{
+            //    // Si admin, le bouton est visible
+            //    BtnNavAdmin.Visibility = Visibility.Visible;
+            //}
+            //else
+            //{
+            //    // Sinon, le bouton est masqué et ne prend pas de place (Collapsed)
+            //    BtnNavAdmin.Visibility = Visibility.Collapsed;
+            //}
+            // ---------------------------
 
             this.Loaded += Accueil_Loaded;
         }
@@ -57,7 +70,7 @@ namespace WpfApp1
 
         private void BtnNavAdmin_Click(object sender, RoutedEventArgs e)
         {
-            // Si vous voulez permettre à un membre d'aller vers admin (seulement s'il a les droits normalement)
+            // Pour permettre à un membre d'aller vers admin (seulement s'il a les droits normalement)
             
             var adminWindow = new gerer_compte_admin(_authService, _filmService, _memberService, _currentUser);
             adminWindow.Show();

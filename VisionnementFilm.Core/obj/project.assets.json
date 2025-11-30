@@ -2681,23 +2681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\loren\\.nuget\\packages\\": {},
+    "C:\\Users\\victorien\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loren\\Source\\Repos\\WpfApp1\\VisionnementFilm.Core\\VisionnementFilm.Core.csproj",
+      "projectUniqueName": "C:\\Users\\victorien\\Documents\\WpfApp1\\VisionnementFilm.Core\\VisionnementFilm.Core.csproj",
       "projectName": "VisionnementFilm.Core",
-      "projectPath": "C:\\Users\\loren\\Source\\Repos\\WpfApp1\\VisionnementFilm.Core\\VisionnementFilm.Core.csproj",
-      "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loren\\Source\\Repos\\WpfApp1\\VisionnementFilm.Core\\obj\\",
+      "projectPath": "C:\\Users\\victorien\\Documents\\WpfApp1\\VisionnementFilm.Core\\VisionnementFilm.Core.csproj",
+      "packagesPath": "C:\\Users\\victorien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victorien\\Documents\\WpfApp1\\VisionnementFilm.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victorien\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2712,8 +2712,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\loren\\Source\\Repos\\WpfApp1\\VisionnementFilm.SharedKernel\\VisionnementFilm.SharedKernel.csproj": {
-              "projectPath": "C:\\Users\\loren\\Source\\Repos\\WpfApp1\\VisionnementFilm.SharedKernel\\VisionnementFilm.SharedKernel.csproj"
+            "C:\\Users\\victorien\\Documents\\WpfApp1\\VisionnementFilm.SharedKernel\\VisionnementFilm.SharedKernel.csproj": {
+              "projectPath": "C:\\Users\\victorien\\Documents\\WpfApp1\\VisionnementFilm.SharedKernel\\VisionnementFilm.SharedKernel.csproj"
             }
           }
         }
@@ -2759,7 +2759,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

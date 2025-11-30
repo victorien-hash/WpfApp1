@@ -12,9 +12,9 @@ using VisionnementFilm.Core.Services;
 
 namespace WpfApp1
 {
-    /// <summary>
+    
     /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         private readonly AuthService _authService;

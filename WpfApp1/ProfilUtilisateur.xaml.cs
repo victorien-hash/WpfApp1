@@ -15,9 +15,9 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    /// <summary>
+    
     /// Logique d'interaction pour ProfilUtilisateur.xaml
-    /// </summary>
+    
     public partial class ProfilUtilisateur : Window
     {
         public ProfilUtilisateur()

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VisionnementFilm.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92437b038d8a1408aeed0fd8a80320db704bba2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b13967912f7603c9844ea68bda51c31e81af62f")]
 [assembly: System.Reflection.AssemblyProductAttribute("VisionnementFilm.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VisionnementFilm.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

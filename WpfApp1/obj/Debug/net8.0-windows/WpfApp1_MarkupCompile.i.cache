@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\
+C:\Users\victorien\Documents\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\
 WpfApp1
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\loren\Source\Repos\WpfApp1\WpfApp1\App.xaml
+C:\Users\victorien\Documents\WpfApp1\WpfApp1\App.xaml
 71683054285
 
 12-833952394
-229851026722
+229-761662024
 Accueil.xaml;GererCompteMembre.xaml;gerer_compte_admin.xaml;Inscription.xaml;MainWindow.xaml;ProfilUtilisateur.xaml;VisionnerFilm.xaml;
 
-False
+True
 

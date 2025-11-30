@@ -24,7 +24,7 @@
 
                 <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Button Content="🏠 Accueil" Background="Transparent" Foreground="White" BorderThickness="0" Margin="10,0" FontWeight="Bold"/>
-                    <Button Content="⚙️ Admin" Click="BtnNavAdmin_Click" Background="Transparent" Foreground="Gray" BorderThickness="0" Margin="10,0" Cursor="Hand"/>
+                    <!--<Button x:Name ="BtnNavAdmin" Content="⚙️ Admin" Click="BtnNavAdmin_Click" Background="Transparent" Foreground="Gray" BorderThickness="0" Margin="10,0" Cursor="Hand"/> -->
                 </StackPanel>
 
                 <StackPanel Grid.Column="2" Orientation="Horizontal">
