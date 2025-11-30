@@ -34,20 +34,23 @@
             </Grid>
         </Border>
 
-        <StackPanel Grid.Row="1" Margin="20,10,20,0">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
-                <TextBox x:Name="txtRecherche" Width="400" Height="35" FontSize="14" Padding="10,0" VerticalContentAlignment="Center"
+        <!-- Contenu principal défilant -->
+        <ScrollViewer Grid.Row="1"
+                      Margin="20,10,20,0"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      CanContentScroll="True">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                    <TextBox x:Name="txtRecherche" Width="400" Height="35" FontSize="14" Padding="10,0" VerticalContentAlignment="Center"
                          Text="Rechercher un film..." Foreground="Gray" 
                          GotFocus="TxtRecherche_GotFocus" LostFocus="TxtRecherche_LostFocus"/>
-                <Button Content="🔍 Rechercher" Click="BtnRechercher_Click" Background="#E50914" Foreground="White" FontWeight="Bold" Padding="15,0" Cursor="Hand"/>
-            </StackPanel>
-
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <StackPanel>
-                    <TextBlock x:Name="txtTitreSection" Text="🎬 Tous les films" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,15"/>
-                    <WrapPanel x:Name="ListeFilms" Orientation="Horizontal" HorizontalAlignment="Center"/>
+                    <Button Content="🔍 Rechercher" Click="BtnRechercher_Click" Background="#E50914" Foreground="White" FontWeight="Bold" Padding="15,0" Cursor="Hand"/>
                 </StackPanel>
-            </ScrollViewer>
-        </StackPanel>
+
+                <TextBlock x:Name="txtTitreSection" Text="🎬 Tous les films" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,15"/>
+                <WrapPanel x:Name="ListeFilms" Orientation="Horizontal" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
