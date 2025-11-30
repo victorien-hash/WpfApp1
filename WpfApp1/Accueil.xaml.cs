@@ -37,16 +37,16 @@ namespace WpfApp1
 
 
             // Pour permettre l'accès à l'admin seulement si l'utilisateur est admin
-            //if (_currentUser.EstAdmin == true)
-            //{
-            //    // Si admin, le bouton est visible
-            //    BtnNavAdmin.Visibility = Visibility.Visible;
-            //}
-            //else
-            //{
-            //    // Sinon, le bouton est masqué et ne prend pas de place (Collapsed)
-            //    BtnNavAdmin.Visibility = Visibility.Collapsed;
-            //}
+            if (_currentUser.EstAdmin == true)
+            {
+                // Si admin, le bouton est visible
+                BtnNavAdmin.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                // Sinon, le bouton est masqué et ne prend pas de place (Collapsed)
+                BtnNavAdmin.Visibility = Visibility.Collapsed;
+            }
             // ---------------------------
 
             this.Loaded += Accueil_Loaded;
