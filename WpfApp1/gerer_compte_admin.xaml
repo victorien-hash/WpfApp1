@@ -1,7 +1,7 @@
 ﻿<Window x:Class="WpfApp1.gerer_compte_admin"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="TP2Ciné – Administration" Height="550" Width="700"
+        Title="TP2Ciné – Administration" Height="644" Width="700"
         WindowStartupLocation="CenterScreen" Background="#1E1E1E" Icon="/icones/gerercomptes.ico">
 
     <Grid>
@@ -56,6 +56,14 @@
                         <Label Content="Description" Foreground="White"/>
                         <TextBox x:Name="AjouterDescriptionTextBox" Height="80" TextWrapping="Wrap" Margin="0,0,0,20" Padding="5"/>
 
+                        <!-- Button pour Parcourir l'image (zone Ajout) -->
+                        <Label Content="Choisir une image du film" Foreground="White"/>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                            <TextBox x:Name="AjouterCheminImageTextBox" Width="360" IsReadOnly="True" />
+                            <Button x:Name="BtnParcourirImageAjouter" Content="Parcourir..." Margin="5,0,0,0" Click="BtnParcourirImageAjouter_Click" />
+                        </StackPanel>
+
                         <Button Content="💾 Ajouter le film" Click="BtnAjouterFilm_Click" Background="#E50914" Foreground="White" Padding="10,5" Width="150"/>
                     </StackPanel>
                 </ScrollViewer>
@@ -83,6 +91,13 @@
 
                         <Label Content="Nouvelle Description" Foreground="White"/>
                         <TextBox x:Name="ModifDescriptionTextBox" Height="80" TextWrapping="Wrap" Margin="0,0,0,20" Padding="5"/>
+
+                        <!-- Button pour Parcourir l'image (zone Modification) -->
+
+                        <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                            <TextBox x:Name="ModifCheminImageTextBox" Width="360" IsReadOnly="True" />
+                            <Button x:Name="BtnParcourirImageModif" Content="Parcourir..." Margin="5,0,0,0" Click="BtnParcourirImageModif_Click" />
+                        </StackPanel>
 
                         <Button Content="💾 Enregistrer les modifications" Click="BtnEnregistrerModif_Click" Background="#E50914" Foreground="White" Padding="10,5" Width="200"/>
                     </StackPanel>

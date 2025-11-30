@@ -1,24 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using Microsoft.Win32;
 using VisionnementFilm.Core.Entites;
 using VisionnementFilm.Core.Services;
 
 namespace WpfApp1
 {
-    
-    /// Logique d'interaction pour gerer_compte_admin.xaml
-   
     public partial class gerer_compte_admin : Window
     {
         private readonly AuthService _authService;
@@ -28,7 +18,6 @@ namespace WpfApp1
 
         private int _filmIdEnModification = -1;
 
-        // Constructeur complet
         public gerer_compte_admin(AuthService authService, FilmService filmService, MembreService memberService, Utilisateur currentUser)
         {
             InitializeComponent();
@@ -54,6 +43,38 @@ namespace WpfApp1
             this.Close();
         }
 
+        // --- BROWSE IMAGE ---
+
+        private void BtnParcourirImageAjouter_Click(object sender, RoutedEventArgs e)
+        {
+            var path = OuvrirDialogImage();
+            if (!string.IsNullOrEmpty(path))
+            {
+                AjouterCheminImageTextBox.Text = path;
+            }
+        }
+
+        private void BtnParcourirImageModif_Click(object sender, RoutedEventArgs e)
+        {
+            var path = OuvrirDialogImage();
+            if (!string.IsNullOrEmpty(path))
+            {
+                ModifCheminImageTextBox.Text = path;
+            }
+        }
+
+        private string OuvrirDialogImage()
+        {
+            var dlg = new OpenFileDialog
+            {
+                Title = "Sélectionner une image",
+                Filter = "Images (*.png;*.jpg;*.jpeg;*.gif;*.bmp)|*.png;*.jpg;*.jpeg;*.gif;*.bmp|Tous les fichiers|*.*"
+            };
+
+            bool? result = dlg.ShowDialog();
+            return result == true ? dlg.FileName : string.Empty;
+        }
+
         // --- GESTION FILMS (CRUD) ---
 
         private async void BtnAjouterFilm_Click(object sender, RoutedEventArgs e)
@@ -64,16 +85,17 @@ namespace WpfApp1
                 return;
             }
 
+            var cheminImage = !string.IsNullOrWhiteSpace(AjouterCheminImageTextBox.Text)
+                ? AjouterCheminImageTextBox.Text
+                : "/images/fastfurious.jpg"; // valeur par défaut
+
             var film = new Film
             {
                 Titre = AjouterTitreTextBox.Text,
                 Genre = AjouterGenreComboBox.Text,
                 Description = AjouterDescriptionTextBox.Text,
                 Annee = int.TryParse(AjouterAnneeTextBox.Text, out int annee) ? annee : 2024,
-
-                // Valeurs par défaut pour éviter l'erreur SQL
-                CheminImage = "/images/fastfurious.jpg",
-                //CheminVideo = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                CheminImage = cheminImage,
                 PrixAchat = 10.0m
             };
 
@@ -82,6 +104,7 @@ namespace WpfApp1
 
             AjouterTitreTextBox.Text = "";
             AjouterDescriptionTextBox.Text = "";
+            AjouterCheminImageTextBox.Text = "";
         }
 
         private async void BtnChargerFilm_Click(object sender, RoutedEventArgs e)
@@ -96,6 +119,7 @@ namespace WpfApp1
                 ModifTitreTextBox.Text = film.Titre;
                 ModifDescriptionTextBox.Text = film.Description;
                 ModifGenreComboBox.Text = film.Genre;
+                ModifCheminImageTextBox.Text = film.CheminImage ?? string.Empty;
                 MessageBox.Show("Film trouvé. Vous pouvez modifier.");
             }
             else
@@ -113,7 +137,10 @@ namespace WpfApp1
                 return;
             }
 
-            
+            var cheminImage = !string.IsNullOrWhiteSpace(ModifCheminImageTextBox.Text)
+                ? ModifCheminImageTextBox.Text
+                : "/images/fastfurious.jpg";
+
             var film = new Film
             {
                 Id = _filmIdEnModification,
@@ -121,7 +148,7 @@ namespace WpfApp1
                 Genre = ModifGenreComboBox.Text,
                 Description = ModifDescriptionTextBox.Text,
                 Annee = 2024,
-                CheminImage = "/images/fastfurious.jpg", // Garder l'image
+                CheminImage = cheminImage,
                 PrixAchat = 10.0m
             };
 
