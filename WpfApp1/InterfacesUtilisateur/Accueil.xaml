@@ -43,8 +43,9 @@
             <StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
                     <TextBox x:Name="txtRecherche" Width="400" Height="35" FontSize="14" Padding="10,0" VerticalContentAlignment="Center"
-                         Text="Rechercher un film..." Foreground="Gray" 
-                         GotFocus="TxtRecherche_GotFocus" LostFocus="TxtRecherche_LostFocus"/>
+                             
+                             
+                         GotFocus="TxtRecherche_GotFocus" LostFocus="TxtRecherche_LostFocus "/>
                     <Button Content="🔍 Rechercher" Click="BtnRechercher_Click" Background="#E50914" Foreground="White" FontWeight="Bold" Padding="15,0" Cursor="Hand"/>
                 </StackPanel>
 

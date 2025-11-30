@@ -56,8 +56,4 @@
     <ProjectReference Include="..\VisionnementFilm.SharedKernel\VisionnementFilm.SharedKernel.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="InterfacesUtilisateur\" />
-  </ItemGroup>
-
 </Project>

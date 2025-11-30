@@ -2,22 +2,22 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Accueil.xaml.cs">
+    <Compile Update="InterfacesUtilisateur\Accueil.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="GererCompteMembre.xaml.cs">
+    <Compile Update="InterfacesUtilisateur\GererCompteMembre.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="gerer_compte_admin.xaml.cs">
+    <Compile Update="InterfacesUtilisateur\gerer_compte_admin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Inscription.xaml.cs">
+    <Compile Update="InterfacesUtilisateur\Inscription.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ProfilUtilisateur.xaml.cs">
+    <Compile Update="InterfacesUtilisateur\ProfilUtilisateur.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="VisionnerFilm.xaml.cs">
+    <Compile Update="InterfacesUtilisateur\VisionnerFilm.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

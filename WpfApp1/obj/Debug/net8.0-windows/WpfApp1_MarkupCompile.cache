@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\victorien\Documents\WpfApp1\WpfApp1\App.xaml
-71683054285
+7771271430
 
-10-2027467963
+101205012106
 229-761662024
-Accueil.xaml;GererCompteMembre.xaml;gerer_compte_admin.xaml;Inscription.xaml;MainWindow.xaml;ProfilUtilisateur.xaml;VisionnerFilm.xaml;
+InterfacesUtilisateur\Accueil.xaml;InterfacesUtilisateur\GererCompteMembre.xaml;InterfacesUtilisateur\gerer_compte_admin.xaml;InterfacesUtilisateur\Inscription.xaml;InterfacesUtilisateur\MainWindow.xaml;InterfacesUtilisateur\ProfilUtilisateur.xaml;InterfacesUtilisateur\VisionnerFilm.xaml;
 
 False
 
