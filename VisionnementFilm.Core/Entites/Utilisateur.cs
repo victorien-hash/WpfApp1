@@ -22,7 +22,7 @@ namespace VisionnementFilm.Core.Entites
         public List<Transaction> Transactions { get; set; } = new List<Transaction>();  //Relation One-to-Many avec les transactions
 
 
-        // Constructeur vide requis par Entity Framework
+        // Constructeur 
         public Utilisateur() { }
 
         public Utilisateur(string nomUtilisateur, string courriel)
